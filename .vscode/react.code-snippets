@@ -1,0 +1,6 @@
+{
+	"html5": {
+		"prefix": "!react",
+		"body": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n  <meta name=\"Hello React\" content=\"\">\n  <meta charset=\"UTF-8\">\n  <title>${1:Document}</title>\n</head>\n<body>\n  <div id=\"app\">\n    <!-- アプリケーションはここに描画されます-->\n  </div>\n  <script src=\"react/build/react.js\"></script>\n  <script src=\"react/build/react-dom.js\"></script>\n  <script>\n    ReactDOM.render(\n      React.DOM.h1(null, \"Hello world!\"),\n      document.getElementById(\"app\")\n    );\n  </script>\n</body>\n</html>"
+}
+}
